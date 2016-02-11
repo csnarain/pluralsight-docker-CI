@@ -6,7 +6,7 @@ deployment:
   dockerhub:
     branch: master
     commands:
-      - $docker_hub_trigger
+      - $DOCKER_CI_TRIGGER
 
 test:
   override:    
